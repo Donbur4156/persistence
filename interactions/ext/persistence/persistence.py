@@ -28,6 +28,7 @@ class Persistence(Extension):
             cipher_key (str): The cipher key to use. When not provided, a random key will be generated and components will never persist restarts.
                 (default is None)
         """
+        print("hello world")
         self._cipher = Cipher(cipher_key)
 
         #TODO: Decide whether the following should stay typehinted or not.
